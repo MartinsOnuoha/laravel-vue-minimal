@@ -1,0 +1,41 @@
+$font-color: #555555;
+
+body, html, #app, .app {
+  padding: 0;
+  margin: 0;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+h1 {
+  font-size: 10em;
+}
+.navBar {
+  padding: 5px;
+  background-color: #FFF;
+  &__link {
+    display: flex;
+    margin: 0;
+    li {
+      margin: 10px;
+      list-style-type: none;
+      font-size: 17px;
+      a {
+        text-decoration: none;
+        color: #555555;
+      }
+    }
+  }
+}
+button {
+  padding: 10px;
+  background-color: #FFF;
+  border: 1px solid $font-color;
+  color: $font-color;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+}
+button:hover {
+  background-color: #000;
+  color: #FFF;
+}
