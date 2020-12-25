@@ -25,6 +25,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'home',
@@ -53,6 +54,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "home" }, [
+    _c("img", {
+      staticClass: "logo",
+      attrs: { width: "100", src: "logo.png", alt: "" }
+    }),
+    _vm._v(" "),
     _c("h1", [_vm._v("\n    " + _vm._s(_vm.count) + "\n  ")]),
     _vm._v(" "),
     _c(

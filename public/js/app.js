@@ -2056,7 +2056,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "body, html, #app, .app {\n  padding: 0;\n  margin: 0;\n  background-color: #e6e6e6;\n  text-align: center;\n}\n\nh1 {\n  font-size: 10em;\n}\n\n.navBar {\n  padding: 5px;\n  background-color: #FFF;\n}\n.navBar__link {\n  display: flex;\n  margin: 0;\n}\n.navBar__link li {\n  margin: 10px;\n  list-style-type: none;\n  font-size: 17px;\n}\n.navBar__link li a {\n  text-decoration: none;\n  color: #555555;\n}\n\nbutton {\n  padding: 10px;\n  background-color: #FFF;\n  border: 1px solid #555555;\n  color: #555555;\n  cursor: pointer;\n  outline: none;\n  width: 200px;\n}\n\nbutton:hover {\n  background-color: #000;\n  color: #FFF;\n}", ""]);
+exports.push([module.i, "body, html, #app, .app {\n  padding: 0;\n  margin: 0;\n  background-color: #e6e6e6;\n  text-align: center;\n}\n\nh1 {\n  font-size: 10em;\n  margin-top: 0;\n}\n\n.logo {\n  margin-top: 5px;\n}\n\n.navBar {\n  padding: 5px;\n  background-color: #FFF;\n}\n.navBar__link {\n  display: flex;\n  margin: 0;\n}\n.navBar__link li {\n  margin: 10px;\n  list-style-type: none;\n  font-size: 17px;\n}\n.navBar__link li a {\n  text-decoration: none;\n  color: #555555;\n}\n\nbutton {\n  padding: 10px;\n  background-color: #FFF;\n  border: 1px solid #555555;\n  color: #555555;\n  cursor: pointer;\n  outline: none;\n  width: 200px;\n}\n\nbutton:hover {\n  background-color: #000;\n  color: #FFF;\n}", ""]);
 
 // exports
 
