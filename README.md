@@ -39,3 +39,19 @@ php artisan serve
 ```bash
 yarn run watch
 ```
+
+## Project Structure
+
+### Vue 
+You can find the Vue app structure under `resources/js`
+
+```tree
+📁 Components
+📁 Mixins
+📁 Pages 
+📁 Router 
+📁 Store
+📁 Styles
+  🗳 App.vue
+  🗳 App.js
+```
