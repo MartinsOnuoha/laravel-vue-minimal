@@ -42,16 +42,41 @@ yarn run watch
 
 ## Project Structure
 
-### Vue 
+### Vue
+
 You can find the Vue app structure under `resources/js`
 
 ```tree
 📁 Components
 📁 Mixins
-📁 Pages 
-📁 Router 
+📁 Pages
+📁 Router
 📁 Store
 📁 Styles
   🗳 App.vue
   🗳 App.js
 ```
+
+## Docker
+
+This project uses [Sail](https://laravel.com/docs/9.x/sail) to run the app within a docker environment. If you would like to run the project within a docker container you can do this by first building the container and then running it.
+
+Within the project directory run:
+
+```bash
+docker-compose build
+```
+
+After the build is complete you can start the container by running:
+
+```bash
+docker-compose up
+```
+
+Alternatively if you have composer installed correclty and the composer command is available, then you can run:
+
+```bash
+composer run-script sail
+```
+
+You should find the app running in any port value set for `APP_PORT` in `.env`.
